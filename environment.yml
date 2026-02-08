@@ -1,0 +1,15 @@
+name: binder-base
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.*
+  - pandas=2.2.*
+  - pytorch=2.1.*
+  - cpuonly
+  - pip:
+      - transformers==4.40.*
+      - accelerate==0.29.*
