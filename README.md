@@ -17,7 +17,7 @@
 
 **直达链接格式：**
 ```
-https://mybinder.org/v2/gh/<USER>/<REPO>/HEAD?labpath=notebooks%2Fdemo.ipynb
+https://mybinder.org/v2/gh/yuanlehome/Online-Jupyter-Notebook/HEAD?labpath=notebooks%2Fdemo.ipynb
 ```
 
 ## 依赖方案说明
