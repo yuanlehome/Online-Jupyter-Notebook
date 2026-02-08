@@ -27,7 +27,6 @@ dependencies:
   - uvloop
   - sentencepiece
   - tabulate
-  - soundfile=0.13.1
   # 构建/编译相关（很多 pip 包会用到）
   - setuptools>=61.0
   - wheel
@@ -39,15 +38,12 @@ dependencies:
       - build
       - compressed-tensors
       - datasets
-      - decord; platform_machine == "x86_64"
       - einops
       - fastapi
       - gguf
       - hf_transfer
       - huggingface_hub
-      - intel-openmp; platform_machine == "x86_64"
       - interegular
-      - llguidance>=0.7.11,<0.8.0
       - modelscope
       - openai-harmony==0.0.4
       - openai==2.6.1
@@ -65,8 +61,3 @@ dependencies:
       - transformers==4.57.1
       - triton==3.5.0
       - xgrammar==0.1.27
-
-      # grpc 版本对齐
-      - grpcio==1.75.1
-      - grpcio-tools==1.75.1
-      - grpcio-reflection==1.75.1
